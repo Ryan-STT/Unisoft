@@ -1,0 +1,177 @@
+/*FONTE*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+/*NAVBAR*/
+
+.navbar{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-collapse{
+    justify-content: center;
+}
+.nav-link{
+    font-weight: 600;
+    color: white;
+}
+.nav-link:hover{
+    font-weight: bold;
+    color: #1c3ccd;
+    transition: all 0.3s ease-in;
+}
+.nav-item{
+    padding: 10px 10px;
+}
+
+/*BOTÃO LOGIN/CADASTRO*/
+
+.btn-primary{
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    font-size: x-small;
+}
+
+.btn-primary:hover{
+    background-color: #1c3ccd;
+    border: solid 1px #1c3ccd;
+    transition: all 0.3s ease-in;
+}
+
+/*BANNER*/
+
+.banner{
+    height: 80vh;
+    min-height: 500px;
+    display: flex;
+    object-fit: cover;
+}
+
+/*QUEM SOMOS*/
+
+#empresa{
+    background-color: black;
+}
+.titulo{
+    margin-top: 60px;
+    margin-bottom: 45px;
+    font-family: 'Patua One', cursive;
+    color: white;
+}
+#empresa p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-bottom: 60px;
+}
+
+/*ESSENCIA*/
+
+.titulo-essencia{
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    color: black;
+}
+.card{
+    background-color: black;
+}
+.card-deck{
+    margin-bottom: 60px;
+}
+.card:hover{
+    background-color: #1c3ccd;
+    transition: all 0.3s ease-in;
+    transform: scale(1.1);
+}
+.card-img-top{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.card-title{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: 'Patua One', cursive;
+}
+
+/*PARCEIROS E CLIENTES*/
+
+#parceiros{
+    background-color: black;
+}
+.titulo-parceiros{
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    padding-top: 60px;
+    margin-bottom: 80px;
+    color: white;
+}
+#parceiros h3{
+    font-family: 'Patua One', cursive;
+    color: white;
+    margin-bottom: 20px;
+}
+.text-parceiros{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-bottom: 60px;
+}
+.imagem-parceiro{
+    margin-bottom: 40px;
+    border: solid 4px #1c3ccd;
+    padding: 20px;
+    width: 400px;
+}
+.imagem-clientes{
+    border: solid 4px #1c3ccd;
+    padding: 20px;
+    width: 400px;
+}
+.img-thumbnail{
+    margin-right: 30px;
+}
+.espaço{
+    padding-bottom: 60px;
+}
+
+/*TIME*/
+
+.titulo-time{
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    padding-top: 60px;
+    margin-bottom: 80px;
+    color: black;
+}
+
+/*TRABALHE CONOSCO*/
+
+#trabalhe{
+    background-color: #1c3ccd;
+}
+.linha{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.text-trabalhe{
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.trabalhebtn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: solid 1px white;
+    color: #1c3ccd;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+.trabalhebtn:hover{
+    background-color: #1c3ccd;
+    border: solid 1px white;
+    transition: all 0.3s ease-in;
+}
