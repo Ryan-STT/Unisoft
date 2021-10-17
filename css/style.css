@@ -366,4 +366,16 @@ html{
     #trabalhe{
         display: none;
     }
+    .navbar{
+        justify-content: center;
+    }
+    .carousel-caption{
+        height: 75%;
+    }
+    #empresa .titulo{
+        text-align: center;
+    }
+    .lala{
+        text-align: center;
+    }
 }
