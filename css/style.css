@@ -382,10 +382,63 @@ html{
     font-family: 'Poppins', sans-serif;
     color: white;
 }
+.tipserv .btn-outline-primary{
+    display: none;
+}
+
+/*LGPD  */
+
+.introducao{
+    margin: 120px 0;
+}
+.introducao h2{
+    font-family: 'Patua One', cursive;
+}
+.introducao p{
+    font-family: 'Poppins', sans-serif;
+}
+.cardlgpd{
+    margin: 0 0 160px 0;
+}
+.cardlgpd p{
+    font-family: 'Poppins', sans-serif;
+}
+.titulolgpd{
+    border-bottom: solid 2px #1c3ccd;
+    width: 230px;
+    font-family: 'Patua One', cursive;
+}
+.titulolgpd1{
+    border-bottom: solid 2px #1c3ccd;
+    width: 130px;
+    font-family: 'Patua One', cursive;
+}
+.fimlgpd h1{
+    font-family: 'Patua One', cursive;
+}
+.fimlgpd .btn{
+    background-color: #1c3ccd;
+    border: solid 2px #1c3ccd;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 70px;
+}
+.fimlgpd .btn:hover{
+    font-weight: bolder;
+    background-color: transparent;
+    color: #1c3ccd;
+    border: solid 2px #1c3ccd;
+    transition: all 0.3s ease-in;
+}
+.media img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
 
 /*MEDIA*/
 
-@media (max-width: 768px){
+@media (max-width: 769px){
     .nav{
         display: block;
     }
@@ -397,6 +450,37 @@ html{
     }
     #trabalhe{
         display: none;
+    }
+    .essencia .card{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin: 0 0 30px 0;
+    }
+    .essencia .card:hover{
+        transform: scale(1.0);
+    }
+    #produtoscard .card{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .tipserv .col{
+        flex: 0 0 47%;
+        max-width: 47%;
+    }
+    .tipserv .btn-outline-primary{
+        display: inline;
+        margin: 20px 0 28px 0;
+    }
+    .cardlgpd .col{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    .cardlgpd{
+        margin: 0 0 25px 0;
+    }
+    .introducao{
+        margin: 100px 0;
     }
 }
 @media (max-width: 427px){
@@ -440,5 +524,31 @@ html{
     }
     .tipserv .col{
         margin-bottom: 85px;
+        flex: 0 0 100%;
+        max-width: 100%;
+        border-bottom: solid 4px white;
+    }
+    .tipserv .btn{
+        margin-bottom: 130px;
+    }
+    .imgserv p{
+        text-align: justify;
+    }
+    .tipserv img{
+        height: 300px;
+        width: 300px;
+    }
+    .tipserv img{
+        height: 300px;
+        width: 300px;
+    }
+    .nav{
+        margin: auto;
+    }
+    nav{
+        text-align: center;
+    }
+    .media img{
+        display: none;
     }
 }
