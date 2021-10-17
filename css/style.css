@@ -336,6 +336,53 @@ html{
     color: #1c3ccd;
 }
 
+/*SERVIÇOS*/
+
+#servicos{
+    background-color: black;
+}
+#servicos .pp{
+    margin-top: 20%;
+}
+#servicos .pp h1, .imgserv h2{
+    font-family: 'Patua One', cursive;
+    color: white;
+    margin-bottom: 20px;
+}
+#servicos .pp p, .imgserv p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.imgserv{
+    text-align: center;
+    margin-top: 50px;
+}
+.imgserv img{
+    margin-bottom: 25px;
+}
+.tipserv{
+    margin-top: 90px;
+    text-align: center;
+}
+.tipserv img{
+    padding: 30px;
+}
+.tipserv .col{
+    margin: 10px;
+}
+.tipserv img:hover{
+    transform: scale(1.1);
+}
+.tipserv h5{
+    font-family: 'Patua One', cursive;
+    color: white;
+    margin-bottom: 25px;
+}
+.tipserv p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
 /*MEDIA*/
 
 @media (max-width: 768px){
@@ -347,6 +394,9 @@ html{
     }
     .navbar-brand{
         text-align: center;
+    }
+    #trabalhe{
+        display: none;
     }
 }
 @media (max-width: 427px){
@@ -380,5 +430,15 @@ html{
     }
     .essencia .card p{
         font-size: medium;
+    }
+    #servicos .pp, #servicos .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #servicos h1{
+        text-align: center;
+    }
+    .tipserv .col{
+        margin-bottom: 85px;
     }
 }
