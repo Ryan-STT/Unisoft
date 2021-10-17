@@ -366,9 +366,6 @@ html{
     #trabalhe{
         display: none;
     }
-    .navbar{
-        justify-content: center;
-    }
     .carousel-caption{
         height: 75%;
     }
@@ -377,5 +374,11 @@ html{
     }
     .lala{
         text-align: center;
+    }
+    .lala h3{
+        margin-bottom: 30px;
+    }
+    .essencia .card p{
+        font-size: medium;
     }
 }
