@@ -335,3 +335,38 @@ html{
 .producard i{
     color: #1c3ccd;
 }
+
+/*MEDIA*/
+
+@media (max-width: 768px){
+    #carouselExampleSlidesOnly{
+    display: none;
+    }
+    .nav{
+        display: block;
+    }
+    .navbar{
+        display: flex;
+    }
+    .navbar-brand{
+        text-align: center;
+    }
+}
+@media (max-width: 427px){
+    .qms{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .qmss{
+        display: none;
+    }
+    .essencia .card:hover{
+        transform: scale(1.0);
+    }
+    .img-thumbnail{
+        margin-bottom: 20px;
+    }
+    #trabalhe{
+        display: none;
+    }
+}
