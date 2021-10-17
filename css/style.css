@@ -3,6 +3,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
+/*BOTÃO MENU*/
+
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: #1c3ccd;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: white;
+    z-index: 999;
+    font-size: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
 /*NAVBAR*/
 
 .navbar{
@@ -116,7 +146,6 @@
 .banner1 .carousel-inner .btn:hover{
     background-color: #1c3ccd;
     border:solid 1px #1c3ccd;
-    box-shadow: 0px 6px 15px 7px black;
 }
 
 /*QUEM SOMOS*/
@@ -230,6 +259,10 @@
     font-weight: bolder;
     font-size: 24px;
 }
+.text-trabalhe span{
+    font-style: oblique;
+    font-size: 27px;
+}
 .trabalhebtn{
     background-color: #1c3ccd;
     border: solid 2px #1c3ccd;
@@ -245,21 +278,51 @@
     transition: all 0.3s ease-in;
 }
 
-/*SOLUÇOES*/
+/*BANNER PRODUTOS*/
 
-.solucoes{
+#produtos .carousel-caption{
+    text-align: left;
+    left: 3%;
+}
+#produtos .btn-primary{
+    background-color: transparent;
+    border: solid 2px white;
+    font-family: 'Patua One', cursive;
+    letter-spacing: 1px;
+}
+#produtos .btn-primary:hover{
+    background-color: #1c3ccd;
+    border: solid 2px #1c3ccd;
+}
+#produtos .carousel-inner h1{
+    font-family: 'Patua One', cursive;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+#produtos .carousel-inner p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    letter-spacing: 0.6px;
+    margin-bottom: 35px;
+}
+
+/*PRODUTOS*/
+
+#produtoscard{
     margin: 60px 40px
 }
-.solucoes .card{
+#produtoscard .card{
     transition: all 0.3s ease-in;
 }
-.solucoes .card-body{
+#produtoscard .card-body{
     font-family: 'Poppins', sans-serif;
 }
-.solucoes .card-title{
+#produtoscard .card-title{
     font-family: 'Patua One', cursive;
 }
-.solucoes .card:hover{
+#produtoscard .card:hover{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 .producard{
@@ -269,6 +332,6 @@
     font-family: 'Patua One', cursive;
     text-decoration: none !important;
 }
-i{
+.producard i{
     color: #1c3ccd;
 }

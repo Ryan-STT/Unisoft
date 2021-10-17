@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -14,6 +15,12 @@
     <title>UniSoft | Segurança Cibernética</title>
 </head>
 <body>
+
+    <!--BOTÃO UP-->
+
+    <div class="scroll-up-btn">
+        <i class="fas fa-arrow-circle-up"></i>
+    </div>
 
     <!--NAVBAR-->
 
@@ -106,7 +113,7 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100 img-fluid" src="imagens/banner.png" alt="Primeiro Slide">
-                <div class="carousel-caption d-block h-50 align-items-center justify-content-center ">
+                <div class="carousel-caption d-block h-50 align-items-center justify-content-center">
                     <h1>SEMPRE SOFT & SEMPRE SAFE</h1>
                     <p>A maior empresa especializada em cibersegurança do Brasil</p>
                     <a href="#empresa"><button type="button" class="btn btn-primary btn-lg">SAIBA MAIS</button></a>
@@ -194,7 +201,7 @@
         <div class="container">
             <div class="row align-items-center linha">
                 <div class="col-8">
-                    <div class="text-trabalhe">FAÇA PARTE DO NOSSO COLETIVO DE PROTAGONISTAS<br>#TimeUniSoft</div>
+                    <div class="text-trabalhe">FAÇA PARTE DO NOSSO COLETIVO DE PROTAGONISTAS<br><span>#TimeUniSoft</span></div>
                 </div>
                 <div class="col">
                     <a href="https://forms.gle/ZK4Cx8Qqi5qiiyfU7" target="blank"><button type="button" class="btn btn-secondary btn-lg trabalhebtn">TRABALHE CONOSCO</button></a>
@@ -210,16 +217,18 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagens/banner2.png" alt="Primeiro Slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>UNISOFT SOLUÇÕES DE SEGURANÇA</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis deserunt soluta tempore fugiat, neque error dicta enim! Qui, magnam quos?</p>
-                        <a href="#solucoes"><button type="button" class="btn btn-primary btn-lg">CONHECER</button></a>
+                    <div class="carousel-caption d-block h-75">
+                        <h1>UNISOFT SOLUÇÕES <br> DE SEGURANÇA</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Perferendis deserunt soluta tempore fugiat, neque error dicta enim! <br> Qui, magnam quos?</p>
+                        <a href="#produtoscard"><button type="button" class="btn btn-primary btn-lg">CONHECER</button></a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="solucoes">
+        <!--CARD PRODUTOS-->
+
+        <div id="produtoscard">
             <div class="card-deck">
                 <div class="card mb-5">
                     <svg xmlns="http://www.w3.org/2000/svg" class="card-img-top" x="0px" y="0px"  width="120" height="120" viewBox="0 0 226 226" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,226v-226h226v226z" fill="none"></path><g fill="#1c3ccd"><path d="M113,7.04871c-2.33118,0 -4.66235,0.77246 -6.62109,2.33118l-4.93823,3.95886c-16.4148,13.13184 -36.18152,20.81506 -57.16211,22.20825l-12.7732,0.85523c-5.80725,0.38623 -10.23511,5.42102 -9.87646,11.21448l2.42773,40.80249c2.78638,38.44372 20.31848,73.54932 49.40991,98.84741l32.5813,28.31897c1.98633,1.72425 4.46924,2.57947 6.95215,2.57947c2.48291,0 4.96582,-0.85522 6.95215,-2.57947l32.5675,-28.31897c29.09143,-25.29809 46.65112,-60.40369 49.42371,-98.88879l2.42773,-40.74732c0.35864,-5.80725 -4.06921,-10.84204 -9.87646,-11.22827l-12.77319,-0.85523c-20.98059,-1.39319 -40.74732,-9.07641 -57.16211,-22.20825l-4.93823,-3.95886c-1.94495,-1.55871 -4.28992,-2.33118 -6.62109,-2.33118zM113,14.125c0.77246,0 1.55871,0.26209 2.20703,0.77246l4.93823,3.95886c17.5459,14.04223 38.67822,22.24963 61.10718,23.73938l12.7732,0.85523c1.93115,0.12414 3.4209,1.807 3.29675,3.75195l-2.44153,40.70593c-1.84839,25.7395 -10.69031,49.87891 -25.38086,70.32153v-1.31043c0,-1.94495 -1.5863,-3.53125 -3.53125,-3.53125c-1.94495,0 -3.53125,1.5863 -3.53125,3.53125v7.0625c0,0.86902 0.34485,1.62769 0.85523,2.23462c-4.67615,5.57275 -9.7937,10.84204 -15.39404,15.7113l-32.5813,28.33277c-1.32422,1.1449 -3.31055,1.1449 -4.63477,0l-32.5813,-28.33277c-5.60034,-4.86926 -10.7179,-10.13855 -15.39404,-15.7113c0.51038,-0.62073 0.85522,-1.37939 0.85522,-2.23462v-7.0625c0,-1.95874 -1.5863,-3.53125 -3.53125,-3.53125c-1.94495,0 -3.53125,1.57251 -3.53125,3.53125v1.31043c-14.69055,-20.44263 -23.53247,-44.56824 -25.38086,-70.28015l-2.44153,-40.76111c-0.12414,-1.93115 1.3656,-3.61401 3.29675,-3.73816l12.77319,-0.85523c22.44275,-1.50354 43.56128,-9.71094 61.10718,-23.75317l4.93823,-3.94507c0.66211,-0.51038 1.43457,-0.77246 2.20703,-0.77246zM113,24.22217c-1.42078,0 -2.84155,0.42761 -4.04163,1.26904l-9.09021,6.35901c-15.31128,10.7179 -33.2572,17.03552 -51.92041,18.29077l-2.276,0.13794c-1.95874,0.13794 -3.4209,1.8346 -3.29675,3.77954c0.13794,1.86218 1.68286,3.28296 3.53125,3.28296c0.06897,0 0.15173,0 0.2345,-0.01379l2.2898,-0.15173c19.93225,-1.32422 39.11963,-8.08325 55.49304,-19.54602l9.07641,-6.34521l9.07642,6.34521c9.80749,6.86939 20.59436,12.04211 32.05713,15.39404c1.86218,0.53796 3.83472,-0.52417 4.38647,-2.40014c0.53796,-1.87598 -0.53796,-3.83472 -2.41394,-4.38648c-10.71789,-3.13123 -20.81506,-7.9729 -29.97424,-14.38709l-9.09021,-6.35901c-1.20007,-0.84143 -2.62085,-1.26904 -4.04163,-1.26904zM169.98279,49.27197c-1.91736,-0.30347 -3.72437,1.06213 -4.01404,2.99329c-0.27588,1.93115 1.04834,3.72437 2.97949,4.00025c2.85535,0.41382 5.75207,0.71729 8.60742,0.9104l2.09668,0.15173c0.06897,0 0.16553,0 0.2345,0c1.84839,0 3.39331,-1.42078 3.51746,-3.29675c0.13794,-1.94495 -1.32422,-3.6278 -3.26916,-3.76575l-2.09668,-0.12414c-2.67603,-0.17932 -5.39343,-0.469 -8.05566,-0.86902zM74.15625,77.6875c-5.83484,0 -10.59375,4.75891 -10.59375,10.59375v7.0625c0,5.83484 4.75891,10.59375 10.59375,10.59375h10.59375c1.94495,0 3.53125,1.5863 3.53125,3.53125v7.0625c0,1.94495 -1.5863,3.53125 -3.53125,3.53125h-10.59375c-1.94495,0 -3.53125,-1.5863 -3.53125,-3.53125c0,-1.95874 -1.5863,-3.53125 -3.53125,-3.53125c-1.94495,0 -3.53125,1.57251 -3.53125,3.53125c0,5.83484 4.75891,10.59375 10.59375,10.59375h10.59375c5.83484,0 10.59375,-4.75891 10.59375,-10.59375v-7.0625c0,-5.83484 -4.75891,-10.59375 -10.59375,-10.59375h-10.59375c-1.94495,0 -3.53125,-1.5863 -3.53125,-3.53125v-7.0625c0,-1.94495 1.5863,-3.53125 3.53125,-3.53125h10.59375c1.94495,0 3.53125,1.5863 3.53125,3.53125c0,1.95874 1.5863,3.53125 3.53125,3.53125c1.94495,0 3.53125,-1.57251 3.53125,-3.53125c0,-5.83484 -4.75891,-10.59375 -10.59375,-10.59375zM116.53125,77.6875c-5.83484,0 -10.59375,4.75891 -10.59375,10.59375v7.0625c0,5.83484 4.75891,10.59375 10.59375,10.59375h10.59375c1.94495,0 3.53125,1.5863 3.53125,3.53125v7.0625c0,1.94495 -1.5863,3.53125 -3.53125,3.53125h-10.59375c-1.94495,0 -3.53125,-1.5863 -3.53125,-3.53125c0,-1.95874 -1.5863,-3.53125 -3.53125,-3.53125c-1.94495,0 -3.53125,1.57251 -3.53125,3.53125c0,5.83484 4.75891,10.59375 10.59375,10.59375h10.59375c5.83484,0 10.59375,-4.75891 10.59375,-10.59375v-7.0625c0,-5.83484 -4.75891,-10.59375 -10.59375,-10.59375h-10.59375c-1.94495,0 -3.53125,-1.5863 -3.53125,-3.53125v-7.0625c0,-1.94495 1.5863,-3.53125 3.53125,-3.53125h10.59375c1.94495,0 3.53125,1.5863 3.53125,3.53125c0,1.95874 1.5863,3.53125 3.53125,3.53125c1.94495,0 3.53125,-1.57251 3.53125,-3.53125c0,-5.83484 -4.75891,-10.59375 -10.59375,-10.59375zM151.84375,77.6875c-1.94495,0 -3.53125,1.57251 -3.53125,3.53125v42.375c0,1.95874 1.5863,3.53125 3.53125,3.53125h17.65625c1.94495,0 3.53125,-1.57251 3.53125,-3.53125c0,-1.95874 -1.5863,-3.53125 -3.53125,-3.53125h-14.125v-38.84375c0,-1.95874 -1.5863,-3.53125 -3.53125,-3.53125zM77.6875,153.38867c-1.94495,0 -3.53125,1.57251 -3.53125,3.53125v7.0625c0,1.95874 1.5863,3.53125 3.53125,3.53125c1.94495,0 3.53125,-1.57251 3.53125,-3.53125v-7.0625c0,-1.94495 -1.5863,-3.53125 -3.53125,-3.53125zM95.34375,153.38867c-1.94495,0 -3.53125,1.57251 -3.53125,3.53125v7.0625c0,1.95874 1.5863,3.53125 3.53125,3.53125c1.94495,0 3.53125,-1.57251 3.53125,-3.53125v-7.0625c0,-1.94495 -1.5863,-3.53125 -3.53125,-3.53125zM113,153.38867c-1.94495,0 -3.53125,1.57251 -3.53125,3.53125v7.0625c0,1.95874 1.5863,3.53125 3.53125,3.53125c1.94495,0 3.53125,-1.57251 3.53125,-3.53125v-7.0625c0,-1.94495 -1.5863,-3.53125 -3.53125,-3.53125zM130.65625,153.38867c-1.94495,0 -3.53125,1.57251 -3.53125,3.53125v7.0625c0,1.95874 1.5863,3.53125 3.53125,3.53125c1.94495,0 3.53125,-1.57251 3.53125,-3.53125v-7.0625c0,-1.94495 -1.5863,-3.53125 -3.53125,-3.53125zM148.3125,153.38867c-1.94495,0 -3.53125,1.57251 -3.53125,3.53125v7.0625c0,1.95874 1.5863,3.53125 3.53125,3.53125c1.94495,0 3.53125,-1.57251 3.53125,-3.53125v-7.0625c0,-1.94495 -1.5863,-3.53125 -3.53125,-3.53125z"></path></g></g></svg>
@@ -274,6 +283,8 @@
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
