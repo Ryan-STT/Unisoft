@@ -339,9 +339,6 @@ html{
 /*MEDIA*/
 
 @media (max-width: 768px){
-    #carouselExampleSlidesOnly{
-    display: none;
-    }
     .nav{
         display: block;
     }
