@@ -365,10 +365,7 @@ html{
     text-align: center;
 }
 .tipserv img{
-    padding: 30px;
-}
-.tipserv .col{
-    margin: 10px;
+    padding: 25px;
 }
 .tipserv img:hover{
     transform: scale(1.1);
@@ -408,12 +405,12 @@ html{
 }
 .titulolgpd{
     border-bottom: solid 2px #1c3ccd;
-    width: 40%;
+    width: 65%;
     font-family: 'Patua One', cursive;
 }
 .titulolgpd1{
     border-bottom: solid 2px #1c3ccd;
-    width: 19%;
+    width: 40%;
     font-family: 'Patua One', cursive;
 }
 .fimlgpd h1{
@@ -444,9 +441,6 @@ html{
 @media (max-width: 769px){
     .nav{
         display: block;
-    }
-    .navbar{
-        display: flex;
     }
     #trabalhe{
         display: none;
@@ -481,6 +475,9 @@ html{
     }
     .introducao{
         margin: 100px 0;
+    }
+    .tipserv .col{
+        margin: 0px;
     }
 }
 @media (max-width: 427px){
@@ -540,6 +537,9 @@ html{
     .tipserv img{
         height: 300px;
         width: 300px;
+    }
+    .tipserv .col{
+        border-bottom: solid 3px white;
     }
     .nav{
         margin: auto;
