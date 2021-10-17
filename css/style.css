@@ -394,6 +394,9 @@ html{
 .introducao h2{
     font-family: 'Patua One', cursive;
 }
+.introducao h2 span{
+    font-weight: bolder;
+}
 .introducao p{
     font-family: 'Poppins', sans-serif;
 }
