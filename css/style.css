@@ -408,12 +408,12 @@ html{
 }
 .titulolgpd{
     border-bottom: solid 2px #1c3ccd;
-    width: 230px;
+    width: 40%;
     font-family: 'Patua One', cursive;
 }
 .titulolgpd1{
     border-bottom: solid 2px #1c3ccd;
-    width: 130px;
+    width: 19%;
     font-family: 'Patua One', cursive;
 }
 .fimlgpd h1{
@@ -447,9 +447,6 @@ html{
     }
     .navbar{
         display: flex;
-    }
-    .navbar-brand{
-        text-align: center;
     }
     #trabalhe{
         display: none;
@@ -529,7 +526,6 @@ html{
         margin-bottom: 85px;
         flex: 0 0 100%;
         max-width: 100%;
-        border-bottom: solid 4px white;
     }
     .tipserv .btn{
         margin-bottom: 130px;
