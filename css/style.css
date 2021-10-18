@@ -413,21 +413,29 @@ html{
     width: 40%;
     font-family: 'Patua One', cursive;
 }
+.backlgpd{
+    background-color: #1c3ccd;
+}
 .fimlgpd h1{
     font-family: 'Patua One', cursive;
+    color: white;
+}
+.fimlgpd p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
 .fimlgpd .btn{
-    background-color: #1c3ccd;
-    border: solid 2px #1c3ccd;
+    background-color: transparent;
+    border: solid 2px white;
     color: white;
     font-family: 'Poppins', sans-serif;
     height: 70px;
 }
 .fimlgpd .btn:hover{
     font-weight: bolder;
-    background-color: transparent;
+    background-color: white;
     color: #1c3ccd;
-    border: solid 2px #1c3ccd;
+    border: solid 2px white;
     transition: all 0.3s ease-in;
 }
 .media img{
