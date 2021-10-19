@@ -335,6 +335,29 @@ html{
 .producard i{
     color: #1c3ccd;
 }
+#produto1 .btn, #produto2 .btn, #produto3 .btn, #produto4 .btn, #produto5 .btn, #produto6 .btn{
+    background-color: #1c3ccd;
+    width: 460px;
+    font-weight: bolder;
+    height: 60px;
+    font-family: 'Patua One', cursive;
+    letter-spacing: 2px;
+}
+#produto1 .btn:hover, #produto2 .btn:hover, #produto3 .btn:hover, #produto4 .btn:hover, #produto5 .btn:hover, #produto6 .btn:hover{
+        box-shadow: 0px 4px 15px 0px black;
+}
+#modalprod h3{
+    font-family: 'Patua One', cursive;
+}
+#modalprod p{
+    font-family: 'Poppins', sans-serif;
+}
+#modalprod li{
+    font-family: 'Poppins', sans-serif;
+}
+#modalprod ol{
+    font-family: 'Poppins', sans-serif;
+}
 
 /*SERVIÇOS*/
 
