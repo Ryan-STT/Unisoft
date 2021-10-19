@@ -280,27 +280,27 @@ html{
 
 /*BANNER PRODUTOS*/
 
-#modalprod .carousel-caption{
+#produtos .carousel-caption{
     text-align: left;
     left: 3%;
 }
-#modalprod .btn-primary{
+#produtos .btn-primary{
     background-color: transparent;
     border: solid 2px white;
     font-family: 'Patua One', cursive;
     letter-spacing: 1px;
 }
-#modalprod .btn-primary:hover{
+#produtos .btn-primary:hover{
     background-color: #1c3ccd;
     border: solid 2px #1c3ccd;
 }
-#modalprod .carousel-inner h1{
+#produtos .carousel-inner h1{
     font-family: 'Patua One', cursive;
     font-weight: bolder;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-#modalprod .carousel-inner p{
+#produtos .carousel-inner p{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     text-shadow: black 0.1em 0.1em 0.2em;
