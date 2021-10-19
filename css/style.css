@@ -337,7 +337,7 @@ html{
 }
 #produto1 .btn, #produto2 .btn, #produto3 .btn, #produto4 .btn, #produto5 .btn, #produto6 .btn{
     background-color: #1c3ccd;
-    width: 460px;
+    width: 100%;
     font-weight: bolder;
     height: 60px;
     font-family: 'Patua One', cursive;
@@ -348,6 +348,7 @@ html{
 }
 #modalprod h3{
     font-family: 'Patua One', cursive;
+    text-align: center;
 }
 #modalprod p{
     font-family: 'Poppins', sans-serif;
