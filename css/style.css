@@ -482,6 +482,64 @@ html{
     object-fit: cover;
 }
 
+/*CONTATO*/
+
+#contato{
+    background-color: black;
+}
+.cabeca{
+    text-align: center;
+    padding-top: 80px;
+}
+#contato h1{
+    margin-bottom: 100px;
+    font-family: 'Patua One', cursive;
+    color: white;
+}
+#contato h3{
+    margin-bottom: 30px;
+    font-family: 'Patua One', cursive;
+    color: white;
+    text-align: start;
+}
+#contato p{
+    margin-bottom: 70px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: start;
+}
+#contato label{
+    color: white;
+    font-weight: bolder;
+}
+.form-check{
+    color: white;
+}
+#contato .formm{
+    margin: 50px 0;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 1px;
+    border: solid 2px white;
+    min-width: 300px;
+    font-weight: bolder;
+    height: 70px;
+    transition: 0.3s;
+}
+#contato .formm:hover{
+    background-color: #1c3ccd;
+    color: white;
+    border: solid 2px #1c3ccd;
+}
+
+.final{
+    background-color: #1c3ccd;
+}
+.finala{
+    height: 60px;
+    visibility: hidden;
+}
+
 /*FOOTER*/
 
 .row{
