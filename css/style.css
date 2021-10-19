@@ -182,12 +182,16 @@ html{
     margin-bottom: 80px;
     color: black;
 }
+.essencia p{
+    font-family: 'Poppins', sans-serif;
+}
 .essencia .card{
     background-color: black;
     text-align: justify;
 }
 .essencia .card p{
     font-size: x-small;
+    font-family: 'Poppins', sans-serif;
 }
 .essencia .card-deck{
     margin-bottom: 60px;
@@ -514,7 +518,7 @@ html{
 }
 #contato label{
     color: white;
-    font-weight: bolder;
+    font-family: 'Patua One', cursive;
 }
 .form-check{
     color: white;
