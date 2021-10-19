@@ -280,27 +280,27 @@ html{
 
 /*BANNER PRODUTOS*/
 
-#produtos .carousel-caption{
+#modalprod .carousel-caption{
     text-align: left;
     left: 3%;
 }
-#produtos .btn-primary{
+#modalprod .btn-primary{
     background-color: transparent;
     border: solid 2px white;
     font-family: 'Patua One', cursive;
     letter-spacing: 1px;
 }
-#produtos .btn-primary:hover{
+#modalprod .btn-primary:hover{
     background-color: #1c3ccd;
     border: solid 2px #1c3ccd;
 }
-#produtos .carousel-inner h1{
+#modalprod .carousel-inner h1{
     font-family: 'Patua One', cursive;
     font-weight: bolder;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-#produtos .carousel-inner p{
+#modalprod .carousel-inner p{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     text-shadow: black 0.1em 0.1em 0.2em;
@@ -310,19 +310,19 @@ html{
 
 /*PRODUTOS*/
 
-#produtoscard{
+#modalprodcard{
     margin: 60px 40px
 }
-#produtoscard .card{
+#modalprodcard .card{
     transition: all 0.3s ease-in;
 }
-#produtoscard .card-body{
+#modalprodcard .card-body{
     font-family: 'Poppins', sans-serif;
 }
-#produtoscard .card-title{
+#modalprodcard .card-title{
     font-family: 'Patua One', cursive;
 }
-#produtoscard .card:hover{
+#modalprodcard .card:hover{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 .producard{
@@ -335,16 +335,21 @@ html{
 .producard i{
     color: #1c3ccd;
 }
-#produto1 .btn, #produto2 .btn, #produto3 .btn, #produto4 .btn, #produto5 .btn, #produto6 .btn{
+#modalprod .btn{
     background-color: #1c3ccd;
-    width: 100%;
+    width: 300px;
     font-weight: bolder;
     height: 60px;
     font-family: 'Patua One', cursive;
     letter-spacing: 2px;
 }
-#produto1 .btn:hover, #produto2 .btn:hover, #produto3 .btn:hover, #produto4 .btn:hover, #produto5 .btn:hover, #produto6 .btn:hover{
+#modalprod .btn:hover{
         box-shadow: 0px 4px 15px 0px black;
+}
+#modalprod .modal-footer{
+    align-items: center;
+    text-align: center;
+    margin: auto;
 }
 #modalprod h3{
     font-family: 'Patua One', cursive;
@@ -594,7 +599,7 @@ ul{
     .essencia .card:hover{
         transform: scale(1.0);
     }
-    #produtoscard .card{
+    #modalprodcard .card{
         flex: 0 0 100%;
         max-width: 100%;
     }
