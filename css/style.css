@@ -182,22 +182,22 @@ html{
     margin-bottom: 80px;
     color: black;
 }
-.essencia p{
+#essencia p{
     font-family: 'Poppins', sans-serif;
 }
-.essencia .card{
+#essencia .card{
     background-color: black;
     text-align: justify;
 }
-.essencia .card p{
+#essencia .card p{
     font-size: x-small;
     font-family: 'Poppins', sans-serif;
 }
-.essencia .card-deck{
+#essencia .card-deck{
     margin-bottom: 60px;
     margin-top: 70px;
 }
-.essencia .card:hover{
+#essencia .card:hover{
     background-color: #1c3ccd;
     transition: all 0.3s ease-in;
     transform: scale(1.1);
@@ -206,7 +206,7 @@ html{
     margin-top: 70px;
     margin-bottom: 40px;
 }
-.essencia .card-title{
+#essencia .card-title{
     text-align: center;
     font-weight: 700;
     margin-bottom: 30px;
@@ -657,12 +657,12 @@ ul{
     #trabalhe{
         display: none;
     }
-    .essencia .card{
+    #essencia .card{
         flex: 0 0 100%;
         max-width: 100%;
         margin: 0 0 30px 0;
     }
-    .essencia .card:hover{
+    #essencia .card:hover{
         transform: scale(1.0);
     }
     #produtos1 .card{
@@ -723,7 +723,7 @@ ul{
     .qmss{
         display: none;
     }
-    .essencia .card:hover{
+    #essencia .card:hover{
         transform: scale(1.0);
     }
     .img-thumbnail{
@@ -744,7 +744,7 @@ ul{
     .lala h3{
         margin-bottom: 30px;
     }
-    .essencia .card p{
+    #essencia .card p{
         font-size: medium;
     }
     #servicos .pp, #servicos .col-6{
