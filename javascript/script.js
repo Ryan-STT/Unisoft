@@ -1,3 +1,8 @@
+function funcao1()
+{
+alert("Sua conta foi criada com sucesso!!");
+}
+
 //ANIMAÇÕES
     
 const target = document.querySelectorAll('[data-anime]');
@@ -42,6 +47,7 @@ $(document).ready(function(){
 });
 
 // Exemplo de JavaScript inicial para desativar envios de formulário, se houver campos inválidos.
+
 (function() {
     'use strict';
     window.addEventListener('load', function() {
