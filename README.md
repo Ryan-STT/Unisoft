@@ -8,7 +8,7 @@
 
 **PROJETO EM EMPREENDEDORISMO**
 
-**Professor**: Prof. Dr. Antônio Sergio Abrahão Monteiro Bastos
+**Professor**: Dr. Antônio Sergio Abrahão Monteiro Bastos
 
 
 ## Integrantes
