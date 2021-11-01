@@ -406,10 +406,9 @@ html{
 .tipserv img:hover{
     transform: scale(1.1);
 }
-.tipserv h5{
+.tipserv h4{
     font-family: 'Patua One', cursive;
     color: white;
-    margin-bottom: 25px;
 }
 .tipserv p{
     font-family: 'Poppins', sans-serif;
@@ -417,6 +416,32 @@ html{
 }
 .tipserv .btn-outline-primary{
     display: none;
+}
+
+/*MODAL DOS SERVIÇOS*/
+
+.modalservcos h3{
+    font-family: 'Patua One', cursive;
+    text-align: center;
+}
+.modalservcos p{
+    font-family: 'Poppins', sans-serif;
+}
+.modalservcos .btn{
+    background-color: #1c3ccd;
+    width: 300px;
+    font-weight: bolder;
+    height: 60px;
+    font-family: 'Patua One', cursive;
+    letter-spacing: 2px;
+}
+.modalservcos .btn:hover{
+        box-shadow: 0px 4px 15px 0px black;
+}
+.modalservcos .modal-footer{
+    align-items: center;
+    text-align: center;
+    margin: auto;
 }
 
 /*LGPD  */

@@ -92,7 +92,7 @@
                                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
                             </div>
                             <div class="form-group form-check">
-                                <a href="#"><small id="emailHelp" class="form-text text-right">Esqueceu sua senha?</small></a>
+                                <a href="#contato"><small id="emailHelp" class="form-text text-right">Esqueceu sua senha?</small></a>
                             </div>
                         </form>
                         <div class="btnsub"><button type="submit" class="btn btn-primary">ENTRAR</button></div>
@@ -570,30 +570,106 @@
                     <p>Serviço e suporte disponíveis 24 horas por dia, 7 dias por semana para todo tipo de problemas inclusos no pacote, tenha treinamnto e uma equipe pronta para agir em situações de riscos</p>
                 </div>
             </div>
-            <div class="row tipserv">
-                <div class="col">
-                    <a href="#"><img class="img-fluid" src="imagens/Servicos/Servicos1.png" alt=""></a>
-                    <h5>SERVIÇOS PROFISSIONAIS</h5>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iure.</p>
-                    <a href=""><button type="button" class="btn btn-outline-primary">Saiba mais</button></a>
+            <div class="row tipserv mt-5">
+                <div class="col mb-5">
+                    <a href="#" type="button" data-toggle="modal" data-target="#servico1"><img class="img-fluid mb-1" src="imagens/Servicos/Servicos1.png" alt=""></a>
+                    <h4>INSTALAÇÃO</h4>
+                    <a href="#" type="button" data-toggle="modal" data-target="#servico1"></a><button type="button" class="btn btn-outline-primary">Saiba mais</button></a>
                 </div>
-                <div class="col">
-                    <a href="#"><img class="img-fluid" src="imagens/Servicos/Servico2.png" alt=""></a>
-                    <h5>SERVIÇOS PROFISSIONAIS</h5>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iure.</p>
-                    <a href=""><button type="button" class="btn btn-outline-primary">Saiba mais</button></a>
+                <div class="col mb-5">
+                    <a href="#" type="button" data-toggle="modal" data-target="#servico2"><img class="img-fluid" src="imagens/Servicos/Servico2.png" alt=""></a>
+                    <h4>MANUTENÇÃO</h4>
+                    <ahref="#" type="button" data-toggle="modal" data-target="#servico2"><button type="button" class="btn btn-outline-primary">Saiba mais</button></ahref=>
                 </div>
-                <div class="col">
-                    <a href="#"><img class="img-fluid" src="imagens/Servicos/Servicos3.png" alt=""></a>
-                    <h5>SERVIÇOS PROFISSIONAIS</h5>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iure.</p>
-                    <a href=""><button type="button" class="btn btn-outline-primary">Saiba mais</button></a>
+                <div class="col mb-5">
+                    <a href="#" type="button" data-toggle="modal" data-target="#servico3"><img class="img-fluid mb-2" src="imagens/Servicos/Servicos3.png" alt=""></a>
+                    <h4>TREINAMENTOS</h4>
+                    <a href="#" type="button" data-toggle="modal" data-target="#servico3"><button type="button" class="btn btn-outline-primary">Saiba mais</button></a>
                 </div>
-                <div class="col">
-                    <a href="#"><img class="img-fluid" src="imagens/Servicos/Servico4.png" alt=""></a>
-                    <h5>SERVIÇOS PROFISSIONAIS</h5>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iure.</p>
-                    <a href=""><button type="button" class="btn btn-outline-primary">Saiba mais</button></a>
+                <div class="col mb-5">
+                    <a href="#" type="button" data-toggle="modal" data-target="#servico4"><img class="img-fluid" src="imagens/Servicos/Servico4.png" alt=""></a>
+                    <h4>RELATÓRIOS</h4>
+                    <a href="#" type="button" data-toggle="modal" data-target="#servico4"><button type="button" class="btn btn-outline-primary">Saiba mais</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--MODAL SERVIÇOS-->
+
+    <div class="modalservcos">
+        <div class="modal fade" id="servico1" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="TituloModalCentralizado">INSTALAÇÃO</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p><i class="fas fa-long-arrow-alt-right"></i> Implantação de sistemas e ferramentas de Cyber Security, conforme a necessidade de cada cliente. <br><br> <i class="fas fa-long-arrow-alt-right"></i> Encontre a solução mais adequada ao seu ambiente e requisitos de operação da sua empresa.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#contato"><button type="button" class="btn btn-primary btnsub">CONTRATAR</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="servico2" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="TituloModalCentralizado">MANUTENÇÃO</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p><i class="fas fa-long-arrow-alt-right"></i> Manutenção dos softwares contratados pela IB Tecnologia provendo suporte para otimização, atualizações ou mitigar eventuais problemas. <br><br> <i class="fas fa-long-arrow-alt-right"></i> Os sistemas evoluem constantemente, mantenha suas ferramentas sempre atualizadas e funcionais.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#contato"><button type="button" class="btn btn-primary btnsub">CONTRATAR</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="servico3" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="TituloModalCentralizado">TREINAMENTOS</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p><i class="fas fa-long-arrow-alt-right"></i> Treinamento de administração e operação das ferramentas, conforme o perfil do usuário. <br><br> <i class="fas fa-long-arrow-alt-right"></i> Os usuários são uma parte importante do Cyber Security, podem ser o elo mais fraco da corrente se não foram bem orientados no uso das aplicações e ferramentas da sua empresa.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#contato"><button type="button" class="btn btn-primary btnsub">CONTRATAR</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="servico4" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="TituloModalCentralizado">RELATÓRIOS ANALÍTICOS E LAUDOS PERICIAIS</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p><i class="fas fa-long-arrow-alt-right"></i> Relatórios gerencias analíticos extraídos do uso dos sistemas, bem como sobre incidentes de segurança. <br><br> <i class="fas fa-long-arrow-alt-right"></i> Relatórios devem conter informações úteis, mas muitas vezes são complexos e poluídos. <br><br> <i class="fas fa-long-arrow-alt-right"></i> A aplicação de filtros e classificação de dados permite traduzir dados em informação e conhecimento que trazem significado para os gestores. <br><br> <i class="fas fa-long-arrow-alt-right"></i> Laudos periciais assinados por profissionais legalmente habilitados para fornecer documento com força jurídica.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#contato"><button type="button" class="btn btn-primary btnsub">CONTRATAR</button></a>
+                    </div>
                 </div>
             </div>
         </div>
