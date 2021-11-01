@@ -2,11 +2,11 @@
 
 # Dados Da Equipe
 
-**Curso: Análise e Desenvolvimento de Sistemas na Universidade Nove De Julho**
+**Curso: Análise e Desenvolvimento de Sistemas - Universidade Nove De Julho**
 
 **Período**: Noturno
 
-**PROJETO EM EMPREENDEDORISMO*
+**PROJETO EM EMPREENDEDORISMO**
 
 **Professor**: Prof. Dr. Antônio Sergio Abrahão Monteiro Bastos
 
