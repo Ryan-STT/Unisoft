@@ -406,9 +406,10 @@ html{
 .tipserv img:hover{
     transform: scale(1.1);
 }
-.tipserv h4{
+.tipserv .servsubtt{
     font-family: 'Patua One', cursive;
     color: white;
+    border: none !important;
 }
 .tipserv p{
     font-family: 'Poppins', sans-serif;
