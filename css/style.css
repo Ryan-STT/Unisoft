@@ -184,6 +184,13 @@ html{
 #essencia p{
     font-family: 'Poppins', sans-serif;
 }
+#essencia .card-body::-webkit-scrollbar{
+    border-radius: 8px;
+}
+#essencia .card-body::-webkit-scrollbar-thumb{
+    border-radius: 6px;
+    background: #ff0066;
+}
 #essencia .card{
     background-color: black;
     text-align: justify;
