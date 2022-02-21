@@ -184,29 +184,12 @@ html{
 #essencia p{
     font-family: 'Poppins', sans-serif;
 }
-#essencia .card-body::-webkit-scrollbar{
-    border-radius: 8px;
-}
-#essencia .card-body::-webkit-scrollbar-thumb{
-    border-radius: 6px;
-    background: #ff0066;
-}
-#essencia .card{
-    background-color: black;
-    text-align: justify;
-}
-#essencia .card p{
-    font-size: x-small;
-    font-family: 'Poppins', sans-serif;
-}
 #essencia .card-deck{
     margin-bottom: 60px;
     margin-top: 70px;
 }
-#essencia .card:hover{
-    background-color: #1c3ccd;
-    transition: all 0.3s ease-in;
-    transform: scale(1.1);
+#essencia .card{
+    background-color: black;
 }
 .card-img-top{
     margin-top: 70px;
@@ -217,6 +200,19 @@ html{
     font-weight: 700;
     margin-bottom: 30px;
     font-family: 'Patua One', cursive;
+}
+#essencia .scrollcard{
+    height: 200px !important;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: scroll !important;
+}
+#essencia .scrollcard::-webkit-scrollbar{
+    border-radius: 8px !important;
+    background: #161616 !important;
+}
+#essencia .scrollcard::-webkit-scrollbar-thumb{
+    background: #1c3ccd !important;
+    border-radius: 6px !important;
 }
 
 /*PARCEIROS E CLIENTES*/
