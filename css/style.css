@@ -818,6 +818,18 @@ ul{
         border-right: none;
         border-bottom: solid 1px white;
     }
+    #produtos1 h1{
+        font-size: x-large;
+    }
+    #produtos1 p{
+        font-size: x-small;
+    }
+    .titi{
+        font-size: xx-large;
+    }
+    .pipi{
+        font-size: x-small;
+    }
 
     @media (max-width: 425px){
         .footer{
