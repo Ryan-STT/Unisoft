@@ -93,6 +93,9 @@ html{
     margin: 0px 20px 0px 0px;
     border-radius: 20%;
 }
+.profilediv{
+    display: none;
+}
 .salvbtn{
     width: 300px;
     background-color: #2e9630;
@@ -177,6 +180,56 @@ html{
     font-weight: bolder;
     color: white;
 }
+.sugestoes .card-deck{
+    justify-content: center;
+}
 .sugestoes .card-deck a{
     text-decoration: none !important;
+}
+.point{
+    width: 33%;
+}
+
+/*MEDIA*/
+
+@media (max-width: 427px){
+    .dropdown .bacluser, .backluser{
+        display: none;
+    }
+    .navbar-collapse{
+        text-align: center;
+    }
+    .collapse{
+        margin: 20px 0px 230px 0px;
+    }
+    .dropdown-menu{
+        margin: 27px 0px 0px 0px;
+    }
+    .profile{
+        display: none !important;
+    }
+    .salvarinf{
+        justify-content: center !important;
+    }
+    .profile1{
+        width: 170px;
+        height: 170px;
+        object-fit: cover;
+        border: none;
+        border-radius: 20%;
+        margin: 23px 0px;
+    }
+    .profilediv{
+        text-align: center;
+        display: block;
+    }
+    .dadclient .card-header .nav-item .nav-link p{
+        display: none;
+    }
+    .titulo{
+        text-align: center;
+    }
+    .point{
+        width: 100%;
+    }
 }
