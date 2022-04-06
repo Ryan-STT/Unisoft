@@ -3,17 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
-body{
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     background-color: black;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
 /*BOTÃO MENU*/
 
-.scroll-up-btn{
+.scroll-up-btn {
     position: fixed;
     height: 45px;
     width: 42px;
@@ -31,7 +35,8 @@ html{
     pointer-events: none;
     transition: all 0.3s ease;
 }
-.scroll-up-btn.show{
+
+.scroll-up-btn.show {
     bottom: 30px;
     opacity: 1;
     pointer-events: auto;
@@ -39,53 +44,69 @@ html{
 
 /*NAVBAR*/
 
-.navbar{
+.navbar {
     background-color: black;
     font-family: 'Poppins', sans-serif;
 }
 
 /*BOTÃO DROPDOWN*/
 
-.dropdown span{
+.dropdown span {
     font-weight: bolder;
 }
 
 /*INFORMAÇÕES DO CLIENTE*/
 
-.informacoes{
+.informacoes {
     padding-bottom: 30px;
 }
-.informacoes .container .titulo{
+
+.informacoes .container .titulo {
     color: white;
     font-weight: bolder;
     font-family: 'Patua One', cursive;
     letter-spacing: 2px;
 }
-.informacoes .container hr{
+
+.informacoes .container hr {
     background-color: white;
 }
-.dadclient{
+
+.dadclient {
     margin-bottom: 40px;
 }
 
+.dadclient a{
+    color: #1c3ccd;
+    transition: all 0.3s;
+}
+
+.dadclient a:hover{
+    color: #0a9aee;
+}
+
+
 /*CARD DE INFORMAÇÕES (HEADER)*/
 
-.card .card-header ul .nav-link{
+.card .card-header ul .nav-link {
     font-family: 'Patua One', cursive;
 }
 
 /*CARD DE INFORMAÇÕES (CONTEUDO MEUS DADOS)*/
 
-.tab-content .tab-pane form{
+.tab-content .tab-pane form {
     font-family: 'Poppins', sans-serif;
 }
-.tab-content .tab-pane form label{
+
+.tab-content .tab-pane form label {
     font-weight: bold;
 }
-.card-deck{
+
+.card-deck {
     margin-bottom: 15px;
 }
-.profile{
+
+.profile {
     width: 170px;
     height: 170px;
     object-fit: cover;
@@ -93,10 +114,12 @@ html{
     margin: 0px 20px 0px 0px;
     border-radius: 20%;
 }
-.profilediv{
+
+.profilediv {
     display: none;
 }
-.salvbtn{
+
+.salvbtn {
     width: 300px;
     background-color: #2e9630;
     border: solid 2px #2e9630;
@@ -109,7 +132,8 @@ html{
     border-radius: 10px;
     box-shadow: none;
 }
-.salvbtn:hover{
+
+.salvbtn:hover {
     width: 300px;
     background-color: #2e9630;
     border: solid 2px #2e9630;
@@ -124,44 +148,53 @@ html{
 
 /*CARD DE INFORMAÇÕES (CONTEUDO SERVIÇOS/PRODUTOS CONTRATADOS)*/
 
-.tab-pane .titulo2{
+.tab-pane .titulo2 {
     font-weight: bolder;
     font-family: 'Patua One', cursive;
     letter-spacing: 2px;
     text-align: center;
     margin: 27px 0px;
 }
-.card-deck .card-body{
+
+.card-deck .card-body {
     font-family: 'Poppins', sans-serif;
 }
-.card-deck .card-header{
+
+.card-deck .card-header {
     font-size: larger;
 }
-.card-deck .card-header, .card-deck .card-footer{
+
+.card-deck .card-header,
+.card-deck .card-footer {
     font-family: 'Patua One', cursive;
     text-align: center;
 }
-.card-deck .card-footer button{
+
+.card-deck .card-footer button {
     border-radius: 20px;
 }
-.card-deck .card-footer .suport{
+
+.card-deck .card-footer .suport {
     background-color: transparent;
     border: solid 2px rgb(44, 196, 44);
     color: black;
     transition: all 0.5s;
 }
-.card-deck .card-footer .suport:hover{
+
+.card-deck .card-footer .suport:hover {
     background-color: rgb(44, 196, 44);
     border: solid 2px rgb(44, 196, 44);
     color: white;
 }
-.card-deck .card-footer .cancel{
+
+.card-deck .card-footer .cancel {
     background-color: transparent;
     border: solid 2px red;
     color: black;
     transition: all 0.5s;
 }
-.card-deck .card-footer .cancel:hover{
+
+.card-deck .card-footer .cancel:hover {
     background-color: red;
     border: solid 2px red;
     color: white;
@@ -169,49 +202,69 @@ html{
 
 /*CARD DE SUGESTÕES*/
 
-.sugestoes{
+.sugestoes {
     text-align: center;
 }
-.sugestoes .card-deck .card{
+
+.sugestoes .card-deck .card {
     background-color: #1c3ccd;
     color: white;
+    transition: all 0.5s;
 }
-.sugestoes .card-deck h2, .sugestoes .card-deck p{
+
+.sugestoes .card-deck .card:hover {
+    background-color: #0a9aee;
+    color: white;
+}
+
+.sugestoes .card-deck h2,
+.sugestoes .card-deck p {
     font-weight: bolder;
     color: white;
 }
-.sugestoes .card-deck{
+
+.sugestoes .card-deck {
     justify-content: center;
 }
-.sugestoes .card-deck a{
+
+.sugestoes .card-deck a {
     text-decoration: none !important;
 }
-.point{
+
+.point {
     width: 33%;
 }
 
 /*MEDIA*/
 
-@media (max-width: 427px){
-    .dropdown .bacluser, .backluser{
+@media (max-width: 427px) {
+
+    .dropdown .bacluser,
+    .backluser {
         display: none;
     }
-    .navbar-collapse{
+
+    .navbar-collapse {
         text-align: center;
     }
-    .collapse{
+
+    .collapse {
         margin: 20px 0px 230px 0px;
     }
-    .dropdown-menu{
+
+    .dropdown-menu {
         margin: 27px 0px 0px 0px;
     }
-    .profile{
+
+    .profile {
         display: none !important;
     }
-    .salvarinf{
+
+    .salvarinf {
         justify-content: center !important;
     }
-    .profile1{
+
+    .profile1 {
         width: 170px;
         height: 170px;
         object-fit: cover;
@@ -219,17 +272,21 @@ html{
         border-radius: 20%;
         margin: 23px 0px;
     }
-    .profilediv{
+
+    .profilediv {
         text-align: center;
         display: block;
     }
-    .dadclient .card-header .nav-item .nav-link p{
+
+    .dadclient .card-header .nav-item .nav-link p {
         display: none;
     }
-    .titulo{
+
+    .titulo {
         text-align: center;
     }
-    .point{
+
+    .point {
         width: 100%;
     }
 }

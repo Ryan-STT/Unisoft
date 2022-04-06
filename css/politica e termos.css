@@ -3,17 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: black;
 }
 
 /*BOTÃO MENU*/
 
-.scroll-up-btn{
+.scroll-up-btn {
     position: fixed;
     height: 45px;
     width: 42px;
@@ -31,17 +31,23 @@ body{
     pointer-events: none;
     transition: all 0.3s ease;
 }
-.scroll-up-btn.show{
+
+.scroll-up-btn.show {
     bottom: 30px;
     opacity: 1;
     pointer-events: auto;
 }
 
-p, ul, ol{
+p,
+ul,
+ol {
     font-family: 'Poppins', sans-serif;
     color: white;
 }
-h1, h2, h3{
+
+h1,
+h2,
+h3 {
     font-family: 'Patua One', cursive;
     color: #1c3ccd;
 }
