@@ -7,9 +7,9 @@
 **Período**: Noturno
 
 
-**PROJETO EM EMPREENDEDORISMO**
+**PROJETO E MODELAGEM DE SISTEMAS DE SOFTWARE**
 
-**Professor**: Dr. Antônio Sergio Abrahão Monteiro Bastos
+**Professor**: Prof. Daniel Ferreira de Barros Junior
 
 
 ## Integrantes
@@ -22,15 +22,20 @@
 |  Diego da Silva Gustavo dos Santos | 3021105681 |
 |  Eric Vinicius de Freitas Andrade | 3021200284 |
 |  Felipe Firmino Silva Ferreira | 421201116 |
-|  Nildea Maria Evangelista | 321104938 |
-|  Patrick Wesley Fernandes Carneiro | 421200052 |
+|  João Paulo Caldeira de Mello | 3022101591 |
+|  Larissa Pina Pereira | 3021203696 |
+|  Nathalia Marini Chiquitano | 3122101006 |
 |  Ryan De Souza Tomaz | 3021106499 |
 
 
 
 ## Solicitação para o Desenvolvimento do Projeto
 
-## Descrição do Projeto
+Nesse semestre teremos um novo desafio na construção do Projeto, onde vocês irão construir um Sistema WEB publicado em um provedor de Cloud, por exemplo na AWS, AZURE, Google Cloud, ou outro provedor de Cloud e versionando no Github.
+O seu grupo deve criar um sistema WEB, que pode ser uma página institucional, um blog, uma API, um sistema online com cadastro de produtos e clientes, um jogo online, ou qualquer Sistema WEB e versionado no Github.
+O grupo deve escolher a linguagem de programação ou framework necessária a execução do projeto proposto.
+
+## Quem somos (Unisoft)?
 
 - A Unisoft é uma agência de desenvolvimento de software crescente no Brasil fundada em janeiro de 2016 atuando em todo o território nacional, foi criada a partir da necessidade de segurança nas empresas com relação aos dados expostos na internet sem nenhum gerenciamento ou amparo adequado, em virtude disso, a UniSoft surgiu usando a mais alta tecnologia de proteção com profissionais especializados em segurança da informação, atualmente com demanda de 300 colaboradores. A sede da agência é localizada na capital de São Paulo tendo escritórios e filiais em outros estados, como Rio de Janeiro, Maranhão e Rio Grande do Sul.
 
